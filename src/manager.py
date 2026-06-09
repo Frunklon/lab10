@@ -31,6 +31,11 @@ class Manager:
     -------
         float: The annual balance.   
 
+        
+    Example:
+    ----
+    >>> manager = Manager()
+    >>> manager.calculate_annual_balance(year=2023)
     """
 
     def __init__(self, parameters: Parameters):
