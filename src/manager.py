@@ -22,6 +22,15 @@ class Manager:
     """
     Manager class responsible for loading data and providing methods
     to manage apartments, tenants, transfers, bills, and apartment events.
+
+    Args:
+    ----
+        year (int): The year for which to calculate the balance.
+
+    Returns:
+    -------
+        float: The annual balance.   
+
     """
 
     def __init__(self, parameters: Parameters):
